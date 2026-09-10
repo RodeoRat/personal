@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach Jameson - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+            }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h1> Zach Jameson </h1>
+                <p style="font-family: 'Courier New', Courier, monospace; color: brown"> Welcome to my portfolio! </p>
+                <p> Hi, I'm Zach! I'm a Software Engineering student at Iowa State University pursuing a minor
+                    in Artificial Intelligence and Applied Artificial Intelligence. I'm passionate about building 
+                    technology from both the software and hardware perspectives, with particular interests in full-stack 
+                    development, embedded systems, and AI. </p>
+                     
+                <p> I enjoy working across the development process, from designing applications and writing backend logic to 
+                    programming microcontrollers and understanding how software interacts with hardware. As I continue my
+                    education I am excited to gain more hands-on experience through projects, coursework, and possibly 
+                    professional opportunities while finding new areas of software engineering that peak my interest. </p>
+            </div>
+
+        <img class="profile-photo" src= "./images/profile.JPG" alt="Profile Photo">
+        </div>
+    </section>
+    
+    <section id="projects"> 
+        <div class="container">
+            <h2 style="text-decoration: underline; text-align: center;">Projects</h2>
+                <div class="project">
+                    <img src= "./images/logos.png" alt="Project 1" style="display: block; margin: 0 auto;">
+                    <h3>Project 1</h3>
+                    <p> The first project is using HTML and CSS to create this webpage!
+                    In terms of the layout, a navigation bar is created at the
+                    top displaying a list of sections along with a footer. 
+                    Additionally, I included images and hyperlinks in the sections to add
+                    more appeal.</p>
+                    <h3>Project 2</h3>
+                    <p> This project was my final semester project for my freshman coding class. It features
+                        a terminal-based C game inspired by the hit show Squid Game. It includes multiple
+                        minigames such as red light green light, tug of war, and a quickdraw. This project demonstrates
+                        my experience with C programming, functions, arrays, randomization, timers, keyboard input,
+                        and ncurses library.</p>
+                    <a class="project-download" href="./files/final.c" download> Download the C Project</a>
+                </div>
+        </div> 
+    </section>
+    
+    <section id="contact"> 
+        <div class="container">
+            <h2 style="text-decoration: underline;"> Contact Me </h2>
+            
+            <div class="contact-links">
+                <strong>email: zachrj@iastate.edu</strong>
+
+                <a href="https://www.linkedin.com/in/zachrj/" target="_blank" rel="noopener">
+                    <img src="./images/linkedin.png" alt="LinkedIn Profile">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Zach Jameson </p>
+    </footer>
+
+</body>
+</html>
